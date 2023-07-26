@@ -1,0 +1,5 @@
+Lazy Loading:
+- It is helpful to optimize react applications.
+- It helps to render data and scripts when it is scrolled or visited which reduce the application loading time.
+- It is more helpful for those application which use a lot of images that can alter the load time of the application.
+- The rendering of data on scroll is achieved by "Intersection Observer". 
