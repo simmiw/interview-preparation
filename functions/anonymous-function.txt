@@ -1,0 +1,4 @@
+Anonymous-Function:
+- Anonymous functions are those function which doesn't have any name.
+- Callbacks of .then and .catch of promises and IIFE are examples of anonymous functions.
+- Functions passed to map and for each menthods are also an examples of anonymous function.

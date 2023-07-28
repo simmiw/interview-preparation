@@ -1,0 +1,6 @@
+Closure:
+- Function inside a function is called closure.
+- In closure property inner function has access of variables of outer function.
+- In ideal case scenario, variables are vaished from the memory after their execution.
+- However in the case of closure, variables are stored in the head memory beacause they can be accessed by inner function.
+- Closure are one of the example of memory leak in the JavaScript.
