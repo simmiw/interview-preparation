@@ -1,0 +1,8 @@
+Axios:
+- Axios is a promise based HTTP client for JavaScript.
+- It helps to make an API calls from browser and handle the transformation of request and response.
+- It perfoms automatic transformation of JSON data.
+- Old browsers doesn't support Fetch therefore Axios is used to mamage the API call for them.
+- using npm install axios command to install the package.
+- Axios can be used to send an authorized header with every API request by setting up a "default header".
+- It supports all HTTP methods: GET, POST, PUT, DELETE and PATCH.
