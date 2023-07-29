@@ -1,0 +1,6 @@
+this-keyword:
+- "this" keyword always refers to an object which is currently calling the function.
+- When we call a function as a method of object, "this" keywords refers to the calling object.
+- When "this" keyword is used in global scope(non-strict mode), it refers to window object.
+- When we bind "this" keyword using call, bind and apply method.
+- Arrow function doesn't have thier own "this" value therefore they take "this" vale from their lexical scope.
