@@ -1,0 +1,6 @@
+New-keyword:
+- New keyword in JavaScript is used to create an instance of an object that has a constrctor function.
+- When a constractor function is called with "new" keyword an empty object is created.
+- The new object inetrnal prototype property is set to the same as the constuctor function.
+- "this" value points to that newly created object.
+- syntax: new function(argumnets)
