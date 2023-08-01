@@ -1,5 +1,8 @@
 Hoisting:
 - Hoisting is a mechanism in JavaScript where all the variables and functions are moved at the top of their lexical scope.
-- variables declared with "var" keywords can be used before their declartion because of hoisting.
-- "let" and "const" don't hoist and if variables are used without declartion, JavaScript throws a reference error.
-- 
+- variables declared with "var" keywords can be used before their declaration because of hoisting.
+- "let" and "const" don't hoist and if variables are used without declaration, JavaScript throws a reference error.
+- Though JavaScript hoist the varaibles declared with "let" and "const" keywords in "temporal dead zone(TDZ)".
+- Generally, there are 2 phases of variables in JavaScript: 1st phase is compilation and 2nd phase is execution.
+- In the 1st phase variables are stored in the memory with undefined value.
+- In the 2nd phase, code execution happens.
