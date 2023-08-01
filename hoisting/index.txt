@@ -1,0 +1,5 @@
+Hoisting:
+- Hoisting is a mechanism in JavaScript where all the variables and functions are moved at the top of their lexical scope.
+- variables declared with "var" keywords can be used before their declartion because of hoisting.
+- "let" and "const" don't hoist and if variables are used without declartion, JavaScript throws a reference error.
+- 
