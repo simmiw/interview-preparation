@@ -1,0 +1,5 @@
+IIFE:
+- An immediately invoked function expression is a function that runs as soon as it is defined.
+- IIEF is an anonymous function.
+- Abstraction is one of the benefits of IIFE.
+- Synatx of IIEF: (function(){})
