@@ -1,0 +1,9 @@
+Scope and Scope Chain:
+- Scope let us know which are the varaibles and functions are accessible.
+- There are 3 scopes in JavaScript
+    1. Global scope: Varibales and fnctions declared in globalnamespace have global scope and can be accessed from anywhere within the code.
+    2. Function scope: Variables and functions are declared inside functions have function scope which means they can be accessed within that function.
+    3. Block scope: Variables declared using let and const keywords have block scope. These varaibles can only be accessed inside a block {}.
+- JavaScript also uses scope to find variables. If JavaScript doesn't find a particluar variable in the local scope.
+  It tries to find it in the outer scope and if it doesn't exist in the outer scope. It tries to find it in the global scope.
+  If it doesn't exist there browser throws a reference error. This process is called Scope chain.
