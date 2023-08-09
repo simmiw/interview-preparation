@@ -1,0 +1,8 @@
+Service-Workers:
+- Service workers act as a proxy servers between web applications and network.
+- It catches the returend response: When browser make a request for resouce, 
+        service worker checks the cached files and if finds the matching respone it will return cached information.
+- It provides offline experince for the web applications: 
+   When user is offline, it runs in the backgrouddna and allows web applications to maintain the 
+   high level of functionality.
+- Another common use of service worker include push notification.
