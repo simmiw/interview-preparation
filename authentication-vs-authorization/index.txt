@@ -1,0 +1,16 @@
+Authetication:
+- Authetication is a process where the identity of user is checked to provide the access of the system.
+- It is done before authorization.
+- It needs usually the user's login details.
+- It determines whether the person is user or not?
+- The user authentication is visible at user end.
+- The authentication credentials can be changed by user.
+- The user authentication is identified with username, password, face recongnization, scans and fingerprints etc.
+
+Authorization:
+- Authorization is a process to check if the user is allowed to access the resources. 
+- It is done after the authentication process.
+- It determines what permission does the user have.
+- The authorization permission can not be changed by user.
+- The user authorization is not visible at user end.
+- This process is carried out theough the access right to resouces.
