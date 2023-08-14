@@ -1,0 +1,11 @@
+To acoid the render blocking, 2 attributes are used in the script tag.
+Async & defer:
+-Async loads the files asynchronously in the web browser, it executes the scripts files immediately when downloaded. 
+- It doesn’t follow the sequence of script files, if there are multiple scripts to download and executes.
+- It executes that files which has downloaded first without respecting the given sequence.
+- Basically async comes handy when JS files like Google analytics need to be downloaded and execute immediately and independent of DOM.
+
+defer:
+- On the other hand, defer is also avoid render blocking, however it downloads the files in given sequence. and doesn’t block the HTML parsing.
+- It executes after the HTML parsing is complete.
+-All application code is kept in defer.
