@@ -1,0 +1,26 @@
+call()
+- it calls the functions with the given "this" value and allows to pass list of arrguments individually.
+- it doesn't create a copy of the function it is being called on, because it calls the fucntion immediately.
+- example:
+    let obj = {name: "simmi"}
+    function person(){ console.log(this.name)}
+    const personDetails = person.call(obj)
+
+
+apply()
+- it calls the finctions with the give "this" values and only allows an array to pass as an arrguments.
+- it doesn't create a copy of the function it is being called on, because it calls the fucntion immediately.
+- example:
+- example:const personDetails = person.applyl(obj,["28", "Amsterdam"])
+
+
+bind()
+- it calls the functions with the given "this" value and allows to pass list of arrguments and return a function 
+    which can be called later.
+- it creates a copy of that function on which it is being called on.
+- it allows to pass an parameter to that returned function.
+- example: 
+    let obj = {name: "simmi"}
+    function person(){ console.log(this.name)}
+    const personDetails = person.bind(obj, greeting)
+    personDetails("Hello");
