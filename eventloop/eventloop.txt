@@ -1,7 +1,9 @@
 EventLoop:
 - JavaScript is a single threaded language, it has 1 callstack which performance single task at a time.
-- In order to perfomance asyncronous tasks in Javascript, EventLoop plays an important role between "callstack", "web APIs" and "eventqueue".
-- Eventloop continuously montiors the "callstack" and the moment "callstack" is empty, Eventloop start poping functions from "eventqueue" and pushes into the callstack for execution.
+- In order to perfomance asyncronous tasks in Javascript, EventLoop plays an important role between "callstack", 
+    "web APIs" and "eventqueue".
+- Eventloop continuously montiors the "callstack" and the moment "callstack" is empty, Eventloop start poping functions 
+    from "eventqueue" and pushes into the callstack for execution.
 - There are 2 types of eventqueues in JavaScript: Microtask queue and Macrotask queue.
 - Microtask queue has higher priority over macrotask queue and it is used to handle promises whereas macrotask queue is used to handle operations like setTimeout, setInterval.
 
