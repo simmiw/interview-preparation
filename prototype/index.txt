@@ -1,5 +1,16 @@
-- Every function in JavaScript has a property called prototype, this is a common property across objects.
+- Every constructor function in JavaScript has a property called prototype, this is a common property across objects.
 - prototype is an object where it is associated with the function by default, can be accessed, modifies &
     create a new variables and methods to it, share across all the instances of its constructor function.
 - when we need to share some functionality(variables or methods) at a later stage and needs sharing across 
     all instance then the prototype comes handy.
+
+    function abc (){
+        this.name: "ben"
+        this.age: 34
+    }
+
+    const person = new abc();
+    //person is an instanc of abc(), however it is not a constructor so further instances of 
+    //person can be created using new keyword.
+    object has property called .__proto and fucntions has prototype: under the hood they both points to the same property.
+ abc.prototype=== person.__proto // true
