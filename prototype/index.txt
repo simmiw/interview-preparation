@@ -1,0 +1,5 @@
+- Every function in JavaScript has a property called prototype, this is a common property across objects.
+- prototype is an object where it is associated with the function by default, can be accessed, modifies &
+    create a new variables and methods to it, share across all the instances of its constructor function.
+- when we need to share some functionality(variables or methods) at a later stage and needs sharing across 
+    all instance then the prototype comes handy.
